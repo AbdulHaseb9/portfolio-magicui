@@ -51,20 +51,19 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/haseebsheikhofficials",
+        url: "https://www.linkedin.com/in/haseebsheikhofficials/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "#",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "abdulhaseeb22143@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -190,16 +189,52 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
   ],
-  hackathons: [
+  certificate: [
     {
-      title: "Navttc",
+      title: "Advanced React",
       dates: "July 15th, 2025",
-      location: "Islamabad, Pakistan",
-      description:
-        "Developed a portfolio website which has 4 or more sections.",
-      image: "/navttc.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      location: "Meta",
+      image: "/meta.png",
+      links: "https://coursera.org/share/fd7bf4970da1e36aae6af59ff1d69033",
     },
+    {
+      title: "Learning Next.js",
+      dates: "Feb 24th, 2025",
+      location: "Linkedin",
+      image: "/linkedin.jpg",
+      links:
+        "https://www.linkedin.com/learning/certificates/2b324cccc742011113b9c8c2cb7ac1112bc5d31b045781d0cfb2678953edbcdc?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BuCH6LlmhRSy5lSOw9JfkMQ%3D%3D",
+    },
+    {
+      title: "Mern Stack Development",
+      dates: "July 15th, 2025",
+      location: "Learnify Academy",
+      image: "/learnify.png",
+      links: "",
+    },
+    {
+      title: "Frontend Development Libraries",
+      dates: "Jan 27th, 2025",
+      location: "FreeCodeCamp",
+      image: "/freecodecamp.png",
+      links:
+        "https://freecodecamp.org/certification/abdulhaseebsheikh/front-end-development-libraries",
+    },
+    {
+      title: "Javascript Algorithms and Data Structures",
+      dates: "Jan 26th, 2025",
+      location: "FreeCodeCamp",
+      image: "/freecodecamp.png",
+      links:
+        "https://freecodecamp.org/certification/abdulhaseebsheikh/javascript-algorithms-and-data-structures-v8",
+    },
+    // {
+    //   title: "Responsive Web Design",
+    //   dates: "Aug 30th, 2023",
+    //   location: "FreeCodeCamp",
+    //   image: "/freecodecamp.png",
+    //   links:
+    //     "https://freecodecamp.org/certification/abdulhaseebsheikh/responsive-web-design",
+    // },
   ],
 } as const;
