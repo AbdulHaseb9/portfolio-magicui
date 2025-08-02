@@ -128,31 +128,33 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
+      title: "LimeLight Digitizing",
+      href: "https://limelightdigitizing.net",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "I developed a full stack web application for LimeLight Digitizing, a company offering embroidery digitizing, vector art, and custom patch services. The platform allows customers to register, log in, and place orders directly through the website.",
+      // description: "LimeLight Digitizing is a platform that provides high-quality embroidery digitizing services for businesses and individuals. With a focus on precision and creativity, we transform your designs into stunning embroidery files ready for production.",
+      // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
+        "Javascript",
+        "Express.js",
+        "Mongoose",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Redux Toolkit",
+        "Cloudinary",
+        "cors",
+        "bcrypt",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://limelightdigitizing.net/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/limelightdigitizing.png",
+      video: "",
     },
   ],
   certificate: [
