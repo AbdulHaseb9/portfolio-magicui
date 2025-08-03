@@ -113,7 +113,7 @@ export const DATA = {
       school: "Ilma University",
       href: "https://ilmauniversity.edu.pk/",
       degree: "Bachelors of Science in Cyber Security",
-      logoUrl: "/ilmaunilogo.jpg",
+      logoUrl: "/ilmalogo.jpg",
       start: "2024",
       end: "Present",
     },
